@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    max-width: 750px;
+    margin: auto;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+}
+
+.bg-custom {
+    background-color: #6d757e; 
+    color: white; 
+}
