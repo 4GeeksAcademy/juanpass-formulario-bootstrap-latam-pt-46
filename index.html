@@ -22,41 +22,41 @@
                 <form>
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label class="form-label">Card #</label>
-                            <input type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXX" >
+                            <label class="form-label" for="card">Card #</label>
+                            <input type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXX" id="card">
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">CVC #</label>
-                            <input type="text" class="form-control" placeholder="0000">
+                            <label class="form-label" for="cvc">CVC #</label>
+                            <input type="text" class="form-control" placeholder="0000" id="cvc">
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">Amount</label>
+                            <label class="form-label" for="amount">Amount</label>
                             <div class="input-group">
                                 <span class="input-group-text">$</span>
-                                <input type="text" class="form-control" placeholder="Amount">
+                                <input type="text" class="form-control" placeholder="Amount" id="amount">
                             </div>
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label class="form-label">First Name</label>
-                            <input type="text" class="form-control">
+                            <label class="form-label" for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name">
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label">Last Name</label>
-                            <input type="text" class="form-control">
+                            <label class="form-label" for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name">
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label class="form-label">City</label>
-                            <input type="text" class="form-control">
+                            <label class="form-label" for="city">City</label>
+                            <input type="text" class="form-control" id="city">
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">State</label>
-                            <select class="form-select">
+                            <label class="form-label" for="state">State</label>
+                            <select class="form-select" id="state">
                                 <option selected>Pick a state</option>
                                 <option value="California">California</option>
                                 <option value="New York">New York</option>
@@ -64,14 +64,14 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <label class="form-label">Postal Code</label>
-                            <input type="text" class="form-control">
+                            <label class="form-label" for="postal-code">Postal Code</label>
+                            <input type="text" class="form-control" id="postal-code">
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label class="form-label">We accept:</label>
+                            <label class="form-label" for="Mastercard">We accept:</label>
                             <div class="border m-3 p-2 rounded bg-custom text-white  fs-5" >
                                 <div>
                                     <input class="form-check-input me-0" type="radio" name="paymentMethod" id="Mastercard">
@@ -90,8 +90,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="mb-3">
-                                <label class="form-label">Message</label>
-                                <textarea class="form-control" rows="3" placeholder="Add any notes here."></textarea>
+                                <label class="form-label" for="message">Message</label>
+                                <textarea class="form-control" rows="3" placeholder="Add any notes here." id="message"></textarea>
                             </div>
                         </div>
                     </div>
